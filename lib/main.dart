@@ -1,4 +1,5 @@
 import 'package:demo/card_outlin.dart';
+import 'package:demo/plandetails.dart';
 import 'package:demo/widgets/container_outline.dart';
 import 'package:demo/widgets/textoutline.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // A widget which will be started on application startup
-      home: MyHomeScreen(),
+      home: const MyHomeScreen(),
     );
   }
 }

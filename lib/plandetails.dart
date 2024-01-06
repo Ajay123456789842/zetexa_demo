@@ -98,15 +98,18 @@ class PlanDetails extends StatelessWidget {
                         ),
                       ),
                       Spacer(),
-                      Icon(
-                        Icons.sim_card,
-                        color: Colors.yellow,
-                        size: 50,
+                      Padding(
+                        padding: EdgeInsets.fromLTRB(0, 30, 20, 0),
+                        child: Icon(
+                          Icons.sim_card,
+                          color: Colors.yellow,
+                          size: 50,
+                        ),
                       )
                     ],
                   ),
                   const Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
                     child: TextOutline(
                       text: "Your plan expires on Nov 14 7:00 PM",
                       fontsize: 12,
